@@ -1,0 +1,417 @@
+/* Sttart Global Style */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #10171d;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  justify-content: end;
+  align-items: center;
+  background-color: #10171d;
+  background-color: #161e26;
+  /* padding: 20px; */
+  color: #fff;
+  padding: 10px 60px;
+}
+header .logo {
+  height: 90px;
+  position: absolute;
+  left: 60px;
+  top: -1 0px;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  padding: 10px;
+}
+
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 16px;
+  padding: 6px 12px;
+}
+
+header ul li a:hover {
+  color: #259fd0;
+  border: 1px solid #259fd0;
+}
+/* End Global Style */
+
+/* Start Home Style */
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 60px;
+  margin-top: 30px;
+}
+main .text p:first-child {
+  font-size: 17px;
+  color: #8cafce;
+}
+main .text p {
+  font-size: 28px;
+  font-weight: 500;
+  color: #ffffff;
+}
+main .text p span {
+  font-size: 24px;
+  font-weight: 500;
+  color: #259fd0;
+}
+
+main .text a {
+  display: inline-block;
+  background-color: #146d90;
+  color: #ffffff;
+  text-decoration: none;
+  margin-top: 16px;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+main .main-photo {
+  width: 540px;
+}
+
+.studunts {
+  text-align: center;
+  display: flex;
+  position: relative;
+  top: 55px;
+  padding: 0 60px;
+  color: #c3d7e7;
+}
+.studunts .student1,
+.student2,
+.student3,
+.student4,
+.student5,
+.student6 {
+  background-color: #161e26;
+  flex: 1;
+  padding: 12px 16px;
+  border: 2px solid #e69c2415;
+  border-radius: 8px;
+  font-size: 17px;
+}
+.studunts span {
+  color: #259fd0;
+  font-size: 18px;
+}
+.studunts .student1,
+.student2,
+.student3,
+.student4,
+.student5 {
+  margin-right: 8px;
+}
+/* End  Home Style */
+
+/* Start AboutUs Style */
+
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+}
+.AboutUs .Content {
+  width: 1200px;
+  margin: auto;
+  background-color: #161e26;
+  text-align: center;
+  border-radius: 4px;
+  border: 2px solid #0a3141;
+  margin-bottom: 30px;
+  padding: 16px 32px;
+}
+.AboutUs .Content ul {
+  color: #1e89b4;
+  list-style-type: none;
+}
+.AboutUs .Content li {
+  margin-bottom: 8px;
+}
+.AboutUs h3 {
+  color: #1e89b4;
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+.AboutUs p {
+  color: #c3d7e7;
+  font-size: 16px;
+}
+.AboutUs p span {
+  color: #1e89b4;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* End AboutUs Style */
+
+/* Strat Properties Style */
+
+.Properties {
+  height: 600px;
+  background-image: url("images/Types\ Of\ Residential\ Properties.png");
+  background-size: cover;
+}
+
+.Properties_text {
+  position: absolute;
+  width: 100%;
+  height: 75%;
+  background-color: #00000050;
+  z-index: 10;
+  padding-left: 60px;
+  align-content: center;
+}
+.Properties .Properties_text .text {
+  background-color: #000000a1;
+  z-index: 10;
+  padding: 30px 30px;
+  width: 40%;
+  font-size: 32px;
+  font-weight: 600;
+  color: #259fd0;
+  border-radius: 8px;
+}
+.Properties .Properties_text .text p:nth-child(2) {
+  font-size: 16px;
+  font-weight: 500;
+  color: #c3d7e7;
+}
+
+.Properties_main {
+  padding: 30px;
+  padding-top: 20px;
+  background-color: white;
+}
+.Properties_main th {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #11e8f4;
+}
+.Properties_main th,
+td {
+  font-size: 20px;
+  direction: rtl;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.Properties_main .img_logo1 {
+  width: 400px;
+  height: 150px;
+  margin: 0px;
+}
+.Properties_main .page3 {
+  display: flex;
+  float: left;
+  align-items: left;
+  text-align: left;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.Properties_main a:hover {
+  color: #fe0202;
+  font-size: 22px;
+  text-decoration: none;
+
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.Properties_main .p {
+  background: #738893;
+  padding: 6px 15px;
+  border-radius: 80px;
+}
+.Properties_main p {
+  color: rgb(244, 238, 238);
+  text-align: right;
+  direction: rtl;
+  margin: 20px;
+  padding: 1px;
+  font-size: 27px;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.Properties_main img {
+  width: 450px;
+  height: 450px;
+  object-fit: contain;
+  background-size: cover;
+}
+.Properties_main .content-table {
+  background-color: #ffffff;
+  text-align: center;
+  border-collapse: collapse;
+  margin: 10px 0;
+  font-size: 8.9em;
+  min-width: 400px;
+  border-radius: 10px 10px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.505);
+}
+
+.Properties_main .table-Q th td {
+  margin-left: 50px;
+  width: 200px;
+  background-color: white;
+  display: flex;
+  border: 1px solid black;
+  border-collapse: collapse;
+  justify-content: center;
+  text-align: center;
+}
+
+.Properties_main td {
+  width: 300px;
+}
+.Properties_main .T {
+  background-color: #738893;
+  font-style: italic;
+}
+.Properties_main caption {
+  background-color: #0a3141;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.Properties_main .table-Q tr {
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  padding: 10px;
+  text-align: center;
+}
+
+.Properties_main .button {
+  background-color: #11e8f4;
+}
+
+.Properties_main img {
+  width: 200px;
+  height: 250px;
+}
+.Properties_main .hidden-row {
+  display: none;
+}
+
+.Properties_main table {
+  width: 100%;
+  height: 100%;
+
+  border-collapse: collapse;
+  background-color: white;
+}
+.Properties_main th,
+td {
+  border: 1px solid black;
+  text-align: center;
+  padding: 10px;
+}
+.Properties_main .hidden-row td {
+  color: #738893;
+  display: none;
+}
+.Properties_main .details-button {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.Properties_main .details-button.active {
+  background-color: black;
+  color: white;
+}
+
+.Properties_main footer {
+  text-align: center;
+  background: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  text-size-adjust: 20px;
+  height: 320px;
+  width: 100%;
+}
+.Properties_main footer .p {
+  font-size: larger;
+  font-style: oblique;
+  background-color: #345dd7;
+}
+.Properties_main .p1 {
+  text-align: center;
+}
+.Properties_main .info {
+  width: 350px;
+}
+/* 
+ */
+#showForm {
+  position: relative;
+  left: 35%;
+  top: 60%;
+  background-color: #007bff;
+  padding: 12px 250px;
+  color: white;
+  border: none;
+  border-radius: 16px;
+}
+.container {
+  margin-top: 16px;
+  position: relative;
+  left: 43%;
+  top: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+.container label {
+  display: block;
+  margin-bottom: 8px;
+}
+.container input[type="text"],
+.container input[type="button"],
+.container button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.container input[type="button"],
+.container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.container input[type="button"]:hover,
+.container button:hover {
+  background-color: #0056b3;
+}
+.container button[name="submit"] {
+  margin-top: 20px;
+}
+/* End Properties Style */
